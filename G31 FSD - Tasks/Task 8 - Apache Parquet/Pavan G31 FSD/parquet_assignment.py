@@ -3,7 +3,7 @@ import pandas as pd
 # Task 1: Create DataFrame
 data = {
     "employee_id": [1, 2, 3, 4, 5],
-    "name": ["Asha", "Rahul", "Neha", "Vikram", "Priya"],
+    "name": ["Pavan", "Sowmya", "Swetha", "Anjali", "Hemu"],
     "department": ["IT", "HR", "IT", "Finance", "HR"],
     "salary": [60000, 45000, 70000, 55000, 48000]
 }
