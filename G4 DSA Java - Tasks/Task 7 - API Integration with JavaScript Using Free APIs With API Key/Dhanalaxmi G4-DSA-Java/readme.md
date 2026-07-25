@@ -257,7 +257,7 @@ Shows the Weather Dashboard before searching for any city.
 
 Displays weather information for a valid city.
 
-![Weather Result](screenshots/weather-result.png)
+![Weather Result](screenshots/weather.png)
 
 ---
 
@@ -265,7 +265,7 @@ Displays weather information for a valid city.
 
 Displays an error when the user enters an invalid city name.
 
-![Error Message](screenshots/error-message.png)
+![Error Message](screenshots/error.png)
 
 # Security
 
