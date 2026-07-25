@@ -150,7 +150,43 @@ Please enter a Pokémon name or ID.
 ```
 
 ---
+# Screenshots
 
+## 1. Home Screen
+
+The home screen is displayed when the application is first opened. It provides a search bar where users can enter a Pokémon name or ID and click the **Search** button to retrieve Pokémon information.
+
+![Home Screen](screenshots/home.png)
+
+---
+
+## 2. Search Using Pokémon ID
+
+The application allows users to search for a Pokémon by entering its numeric ID. In this example, the user searches for **120**, and the application displays the details of **Staryu**, including its image, ID, height, weight, type, abilities, and base stats.
+
+![Search by ID](screenshots/id.png)
+
+---
+
+## 3. Search Using Pokémon Name
+
+Users can also search using a Pokémon's name. In this example, the user enters **pikachu**, and the application successfully retrieves and displays Pikachu's image along with its ID, height, weight, type, abilities, and base statistics.
+
+![Search by Name](screenshots/name.png)
+
+---
+
+## 4. Invalid Search (Error Handling)
+
+If the user enters an invalid Pokémon name or ID, the application displays an appropriate error message instead of crashing. This ensures a better user experience by informing the user that the requested Pokémon could not be found.
+
+**Example Error Message:**
+
+```
+Pokémon not found.
+```
+
+![Error Handling](screenshots/error.png)
 # How the Project Works
 
 ```
