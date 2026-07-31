@@ -35,7 +35,7 @@ print(department_count)
 #-----Task 5-------
 
 high_salary.to_parquet(
-    "high_salary_employees.parquet",
+    "high_salary_employee.parquet",
     index=False
 )
 
@@ -46,7 +46,7 @@ print("\nhigh_salary_employees.parquet created successfully.")
 print("\n========== Name and Salary Only ==========\n")
 
 bonus_df = pd.read_parquet(
-    "employees.parquet",
+    "employee.parquet",
     columns=["name", "salary"]
 )
 
